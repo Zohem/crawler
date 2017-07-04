@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for testProject project
+# Scrapy settings for zohemCrawler project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'testProject'
+BOT_NAME = 'zohemCrawler'
 
-SPIDER_MODULES = ['testProject.spiders']
-NEWSPIDER_MODULE = 'testProject.spiders'
+SPIDER_MODULES = ['zohemCrawler.spiders']
+NEWSPIDER_MODULE = 'zohemCrawler.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'testProject (+http://www.yourdomain.com)'
+#USER_AGENT = 'zohemCrawler (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'testProject.middlewares.TestprojectSpiderMiddleware': 543,
+#    'zohemCrawler.middlewares.ZohemcrawlerSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'testProject.middlewares.TestprojectDownloaderMiddleware': 543,
+#    'zohemCrawler.middlewares.ZohemcrawlerDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'testProject.pipelines.TestprojectPipeline': 300,
+#    'zohemCrawler.pipelines.ZohemcrawlerPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

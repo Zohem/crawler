@@ -47,7 +47,7 @@ class PageModel:
 
         self.collection.insert(dict)
 
-class TestSpider(scrapy.Spider):
+class ZohemSpider(scrapy.Spider):
 
     name = "test"
     def start_requests(self):
